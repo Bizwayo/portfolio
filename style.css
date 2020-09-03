@@ -45,3 +45,144 @@ nav ul li a{
 
 /*---------------------------------------------------*/
 
+
+
+/*
+Column Container - ABOUT ME
+*/
+.about{
+	background-color: rgba(15, 15, 15, 0.288); 
+}
+.about p{
+  text-align: right;
+  flex: 70%;
+  padding: 20px;
+  color: lightgray;
+  border-radius: 1rem;
+  border: 10px solid black;
+  padding: 20px;
+}
+.about img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+	border-radius: 50%;
+}
+
+.about .about-title{
+	float: left;
+	font-size: 3rem;
+	color: white;
+}
+
+
+
+/*
+EXPERIENCE
+*/
+.experience{
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.exp-title{
+	width: 100%;
+	float: left;
+	font-size: 3rem;
+	color: white;
+}
+.keep1{
+	margin-left: 30%;
+	margin-bottom: 3%;
+	width: 35%;
+	padding-top: 13%;
+}
+.keep2{
+	margin-left: 40%;
+	width: 35%;
+	margin-bottom: 30px;
+}
+
+.exp1{
+  position: relative;
+}
+
+.exp2{
+	position: relative;
+}
+
+.img1{
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+.img2{
+	display: block;
+    width: : 150%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  border-radius: 20px;
+  transition: .5s ease;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.exp1:hover .overlay{
+  width: 100%;
+}
+.exp2:hover .overlay{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/*
+PROJECTS
+*/
+.projects{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(15, 15, 15, 0.288);
+}
+.pro-title{
+	width: 100%;
+	float: left;
+	font-size: 3rem;
+	color: white;
+}
+
+
+
+.contacts{
+	width: 100%;
+}
