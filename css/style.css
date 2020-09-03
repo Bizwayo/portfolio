@@ -62,6 +62,7 @@ Column Container - ABOUT ME
 */
 .about{
 	background-color: rgba(15, 15, 15, 0.288); 
+  padding-top: 25px;
 }
 .about p{
   text-align: right;
