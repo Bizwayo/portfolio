@@ -6,6 +6,10 @@ GLOBAL DESIGN
   box-sizing: border-box;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 body{
   background-color:#2b2c2c;
   font-family: Courier,Georgia,'Times New Roman',
@@ -24,6 +28,7 @@ END OF GLOBAL
          NAVBAR
 */
 nav {
+	background-color: #000;
   text-align: center;
   width: 75%;
   margin: 0 auto;
@@ -45,7 +50,7 @@ nav ul li a{
 
 a:hover{
 	background-color: black;
-	color: white;
+	color: orange;
 }
 
 /*---------------------------------------------------*/
