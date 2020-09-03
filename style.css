@@ -1,0 +1,47 @@
+/*
+GLOBAL DESIGN
+*/
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#2b2c2c;
+  font-family: Courier,Georgia,'Times New Roman',
+   Times, serif;
+   margin: 0;
+   
+}
+
+
+/*---------------------------------------------------
+END OF GLOBAL
+*/
+
+
+/*
+         NAVBAR
+*/
+nav {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+nav ul li {
+    display: inline-block;
+ }
+
+nav ul li a{
+  padding: 10px;
+  text-transform:uppercase;
+  color: lightgray;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+/*---------------------------------------------------*/
+
